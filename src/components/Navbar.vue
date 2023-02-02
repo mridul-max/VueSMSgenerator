@@ -20,6 +20,12 @@
             >FilterByLecturerMail</router-link
           >
         </li>
+        <li class="nav-item">
+          <!-- add a router link to the products page (don't use the a tag!) -->
+          <router-link to="/sendMessage" class="nav-link" active-class="active"
+            >Send Message</router-link
+          >
+        </li>
       </ul>
     </div>
   </nav>
